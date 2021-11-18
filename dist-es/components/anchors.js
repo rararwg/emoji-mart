@@ -61,7 +61,8 @@ function (_React$PureComponent) {
           return null;
         }
 
-        var iconId = id.startsWith('custom-') ? 'custom' : id;
+        var iconId = id.startsWith('custom-') ? id.replace('custom-','') : id;
+
         return React.createElement("button", {
           key: id,
           "aria-label": i18n.categories[iconId],

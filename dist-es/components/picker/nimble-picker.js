@@ -40,7 +40,26 @@ var I18N = {
     objects: 'Objects',
     symbols: 'Symbols',
     flags: 'Flags',
-    custom: 'Custom'
+    custom: 'Custom',
+    mrBlanket: 'Mr. Blanket',
+    aru: 'Aru',
+    baba: 'Baba is you',
+    blackcat: 'Blackcat',
+    blobcat: 'Blobcat',
+    blobfox: 'Blobfox',
+    blobs: 'Blobs',
+    croco: 'Croco',
+    gopher: 'Gopher for Golang',
+    gumball: 'Gumball',
+    hotcherry: 'Hotcherry',
+    merkel: 'Angela Merkel',
+    mario: 'Super Mario',
+    pingu: 'Pingu',
+    pompei: 'Pompei',
+    rainbow: 'Rainbow',
+    sheep: 'Sheep from nofan.xyz',
+    star: 'Star for NeoDB',
+    winniepooh: 'Winnie Pooh'
   },
   categorieslabel: 'Emoji categories',
   // Accessible title for the list of categories
@@ -100,7 +119,7 @@ function (_React$PureComponent) {
             id: emoji.customCategory ? "custom-".concat(emoji.customCategory) : 'custom',
             name: emoji.customCategory || 'Custom',
             emojis: [],
-            anchor: customCategoriesCreated === 0
+            anchor: true
           };
           customCategoriesCreated++;
         }
