@@ -43,6 +43,7 @@ var I18N = {
     custom: 'Custom',
     mrBlanket: 'Mr. Blanket',
     aru: 'Aru',
+    azukisan: 'Asuki San',
     baba: 'Baba is you',
     blackcat: 'Blackcat',
     blobcat: 'Blobcat',
